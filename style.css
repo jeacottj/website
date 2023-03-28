@@ -1,0 +1,134 @@
+.home {
+    /* background-color: */
+    background-image: url(saturn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about {
+    background-color: deepskyblue;
+    background-image: url(339024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact{
+    background-color: aquamarine;
+    color: black;
+    background-image: url(Yoda\ 01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color:lime;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    text-shadow: black 1px 3px;
+
+
+ }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color:lime;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    text-shadow: black 1px 3px;
+
+
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    color:lime;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    text-shadow: rgb(238, 236, 236) 1px 3px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(233, 228, 228);
+}
+
+.image1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.image1{
+    transition-duration: 500ms;
+    transform: (1,08);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+#navbar a{
+    color: red;
+    font-size:px ;
+    text-decoration: none;
+}
+
+
+.mainbody{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contactbody{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#navbar{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(133,);
+}
+#navbar a {
+    color: rgb(60,38,185);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar a:hover{
+    transition-duration: 1s;
+    color: white;
+}
+.message {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
